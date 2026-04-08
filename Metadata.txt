@@ -1,0 +1,54 @@
+This file provides a comprehensive overview of the tables found in the 'global_superstore_project' database.
+
+It includes information for Orders table:
+
+1.Orders: contains all sales data of 4 years from 2011 to 2014 of different segments and in different regions.
+
+Column Description for Orders table:
+
+1. RowID: The 'RowID' column features unique identification of rows in the dataset. This is Primary Key column. For example, the Ids look like "1", "2", "3" respectively.
+
+2. OrderID: The 'OrderID' column has order Ids of customers.For example: "MX-2014-143658", "MX-2012-155047", "MX-2012-155047"
+
+3. OrderDate: The 'OrderDate' column identifies date when the order was placed.
+
+4. ShipDate: The 'ShipDate' column reflects date when order was shipped.
+
+5. ShipMode: The 'ShipMode' column lists Shipping method. For example: "Standard Class", "First Class".
+
+6. CustomerID: The 'CustomerID' column features unique identification for each customer. These values may look like 'SC-20575','KW-16570','KW-16570'.
+
+7. CustomerName: The 'CustomerName' column includes names of customers like "Kelly Williams", "Darren Powers".
+
+8. Segment: The 'Segment' column categorizes products further within the division, such as "consumer"('Cisco Speaker Phone, VoIP', 'KitchenAid Refrigerator, White')
+
+9. City: The 'City' column has cities of customers. For example: "Henderson", "Los Angeles", "Fort Lauderdale".
+
+10. State: The 'State' column lists states of corresponding cities of customers. For example: "Kentucky", "California", "England".
+
+11. Country: The 'Country' column depicts countries of related states of customers. For example: "Mexico", "United States", "Zimbabwe".
+
+12. Market: The 'Market' column has values like "US", "Africa","LATAM"(Latin America), "EMEA"(Europe,Middle East,Africa),"APAC"(Asia Pacific),"EU"(Europe).
+
+13. Region: The 'region' column categorizes countries according to their geographic location.For example: "West"(US), "Southeast Asia"(APAC), "Africa"(Africa).
+
+14. ProductID: The 'ProductID' column features unique identification codes for each product, serving as a means to track and distinguish individual products within a database or system.
+
+15. Category: The 'Category' column classifies products into specific category of product such as 'Office supplies',Furniture,Technology.
+
+16. SubCategory: The 'SubCategory' column separates products category into further subcategories. For example, Office Supplies(papers,binders,art,storage), Technology(phones,copiers).
+
+17. ProductName: The 'ProductName' column lists the names of individual products, corresponding to the unique identification IDs found in the 'ProductID' column.
+
+18. Sales: The 'Sales' column holds the initial price of a product, before any reductions or taxes. It is the original selling price of the product.
+
+19. Quantity: The "Quantity" column contains the number of units of a product that were sold. This information can be used to understand the sales volume of products and to compare the sales volume of different products or variants.
+
+20. Discount: The 'Discount' column identifies the discount given on each order.
+
+21. Profit: The 'Profit' column tells profit received on each order.
+
+22. ShippingCost: The 'ShippingCost' column refers to the price of shipping the order.
+
+23. OrderPriority: The 'OrderPriority' column depicts that how orders to be shipped or delivered based on their priority.For example: "High", "Medium", "Low"
+
